@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/JackameenPortfolio/static/css/main.250c0e52.chunk.css",
-    "main.js": "/JackameenPortfolio/static/js/main.91c919b2.chunk.js",
-    "main.js.map": "/JackameenPortfolio/static/js/main.91c919b2.chunk.js.map",
+    "main.css": "/JackameenPortfolio/static/css/main.f2bcc78a.chunk.css",
+    "main.js": "/JackameenPortfolio/static/js/main.c354413a.chunk.js",
+    "main.js.map": "/JackameenPortfolio/static/js/main.c354413a.chunk.js.map",
     "runtime-main.js": "/JackameenPortfolio/static/js/runtime-main.18e39517.js",
     "runtime-main.js.map": "/JackameenPortfolio/static/js/runtime-main.18e39517.js.map",
     "static/css/2.a1596f27.chunk.css": "/JackameenPortfolio/static/css/2.a1596f27.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.f48ec974.chunk.js.map": "/JackameenPortfolio/static/js/2.f48ec974.chunk.js.map",
     "index.html": "/JackameenPortfolio/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/JackameenPortfolio/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.250c0e52.chunk.css.map": "/JackameenPortfolio/static/css/main.250c0e52.chunk.css.map",
+    "static/css/main.f2bcc78a.chunk.css.map": "/JackameenPortfolio/static/css/main.f2bcc78a.chunk.css.map",
     "static/js/2.f48ec974.chunk.js.LICENSE.txt": "/JackameenPortfolio/static/js/2.f48ec974.chunk.js.LICENSE.txt",
     "static/media/C Y S 'Can't You See'' _ SLOWED AND REVERBED.2746d5cd.mp3": "/JackameenPortfolio/static/media/C Y S 'Can't You See'' _ SLOWED AND REVERBED.2746d5cd.mp3",
     "static/media/C Y S Can’t you see _ Jack Ameen .1e8a6cf5.mp3": "/JackameenPortfolio/static/media/C Y S Can’t you see _ Jack Ameen .1e8a6cf5.mp3",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.18e39517.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.f48ec974.chunk.js",
-    "static/css/main.250c0e52.chunk.css",
-    "static/js/main.91c919b2.chunk.js"
+    "static/css/main.f2bcc78a.chunk.css",
+    "static/js/main.c354413a.chunk.js"
   ]
 }
