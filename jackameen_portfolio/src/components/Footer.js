@@ -22,7 +22,9 @@ var current = 0
 
 function Footer() {
     const [sound, setsound] = useState(new Howl({src : [songs[current]],  loop: true}))
-    current_song = songs[current].split("/")[3];
+    current_song = songs[current].split("/")[4];
+    console.log(current_song);
+    console.log(songs);
 
     useEffect(() => {sound.play()}, [sound])
     
@@ -45,10 +47,10 @@ function Footer() {
     return (
         <div id='footer'>
             <div id='audio_controls'>
-                <button className="animate__animated animate__backInDown button" onClick={() => {playPrevious()}}><img src={previous} height='40px' width='40px'/></button>
-                <button className="animate__animated animate__backInDown button" onClick={() => {sound.play()}}><img src={play} height='25px' width='25px'/></button>
-                <button className="animate__animated animate__backInDown button" onClick={() => {sound.pause()}}><img src={pause} height='25px' width='25px'/></button>
-                <button className="animate__animated animate__backInDown button" onClick={() => {playNext()}}><img src={next} height='40px' width='40px'/></button>
+                <button className="button" onClick={() => {playPrevious()}}><img src={previous} height='40px' width='40px'/></button>
+                <button className="button" onClick={() => {sound.play()}}><img src={play} height='25px' width='25px'/></button>
+                <button className="button" onClick={() => {sound.pause()}}><img src={pause} height='25px' width='25px'/></button>
+                <button className="button" onClick={() => {playNext()}}><img src={next} height='40px' width='40px'/></button>
             </div>
             <div id='song_name'>
                 <div id='playing_icon'><PlayCircleOutlineIcon/></div>
