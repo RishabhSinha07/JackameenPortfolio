@@ -1,17 +1,25 @@
 import './App.css';
 
-import Video from './components/Video'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Projects from './components/Projects';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+
+import LandingPage from './pages/LandingPage';
+import ProjectsPage from './pages/ProjectsPage';
+
+import Footer from './components/Footer';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <Header/>
-      <Video/>
+    <Router>
+      <div className="App">
+      <Routes>
+        <Route path='/' element={<LandingPage/>}></Route>
+        <Route path='/projects' element={<ProjectsPage/>}></Route>  
+      </Routes>
       <Footer/>
     </div>
+    </Router>
   );
 }
 

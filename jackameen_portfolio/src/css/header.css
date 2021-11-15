@@ -1,0 +1,39 @@
+#header h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    color: violet;
+    padding: 10px;
+}
+
+#diaplayname{
+    text-decoration: none;
+}
+
+#header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+#handles{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    opacity: 0.4;
+}
+
+#handles:hover{
+    opacity: 1;
+}
+
+#img{
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#img:hover{
+    background-color: rgb(102, 51, 153, 0.5);
+    
+}

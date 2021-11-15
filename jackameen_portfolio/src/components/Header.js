@@ -1,23 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-import './header.css'
+import '../css/header.css'
 
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LoyaltySharpIcon from '@mui/icons-material/LoyaltySharp';
+
+import InstagramIcon from '../assets/Buttons/insta.png';
+import AboutMeIcon from '../assets/Buttons/aboutMe.png';
+import youtybeIcon from '../assets/Buttons/youtube.png';
+
+import logo from '../assets/Buttons/Logo.png';
+
 
 function Header() {
     return (
-        <div id='header'>
-            <div id='diaplayname'>
-                Jackameen
-            </div>
-            <div id='handles'>
-                <a href='#'><FacebookIcon/></a>
-                <a href='#'><InstagramIcon/></a>
-                <a href='#'><TwitterIcon/></a>
-                <a href='#'><LoyaltySharpIcon/></a>
+        <div>
+            <div id='header'>
+                <Link to="/" style={{ textDecoration: 'none' }}><h1>Jackameen</h1></Link>
+                <div id='handles'>
+                    <a href='https://www.instagram.com/jackameen/' target="_blank"><img id='img' src={InstagramIcon} width='23px' height='23px'/></a>
+                    <a href='https://www.youtube.com/c/JackAmeen/featured' target="_blank"><img id='img' src={youtybeIcon} width='30px' height='30px'/></a>
+                </div>
             </div>
         </div>
     )

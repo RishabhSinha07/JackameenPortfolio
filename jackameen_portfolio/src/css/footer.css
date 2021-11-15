@@ -1,0 +1,54 @@
+#footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#song_name{
+    display: flex;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: small;
+    color: slateblue;
+}
+
+#song_text{
+    padding-top: 5px;
+}
+
+#playing_icon{
+    margin-right: 5px;
+}
+
+#audio_controls{
+    display: flex;
+    opacity: 50%;
+}
+
+#audio_controls:hover {
+    display: flex;
+    opacity: 100%;
+    transition: ease 0.2s;
+}
+
+#lofi{
+    color: blanchedalmond
+}
+
+.button {
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: rgb(102, 51, 153, 0.5);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #song_name{
+        font-size: x-small;
+    }
+ }

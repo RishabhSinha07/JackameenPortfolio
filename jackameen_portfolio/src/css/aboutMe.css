@@ -1,0 +1,58 @@
+.about_me_container{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+}
+
+
+.about_me_content{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workprofile{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background: transparent;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    opacity: 0.9;
+}
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    color: violet;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .about_me_container{
+        margin-top: 35%;
+    }
+
+    .about_me_content{
+        font-size: small;
+    }
+    .image{
+        width: 30px;
+        height: 30px;
+    }
+    p{
+        font-size: smaller;
+    }
+ }
