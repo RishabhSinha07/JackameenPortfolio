@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/JackameenPortfolio/static/css/main.250c0e52.chunk.css",
+    "main.js": "/JackameenPortfolio/static/js/main.56211f1f.chunk.js",
+    "main.js.map": "/JackameenPortfolio/static/js/main.56211f1f.chunk.js.map",
+    "runtime-main.js": "/JackameenPortfolio/static/js/runtime-main.18e39517.js",
+    "runtime-main.js.map": "/JackameenPortfolio/static/js/runtime-main.18e39517.js.map",
+    "static/css/2.a1596f27.chunk.css": "/JackameenPortfolio/static/css/2.a1596f27.chunk.css",
+    "static/js/2.f48ec974.chunk.js": "/JackameenPortfolio/static/js/2.f48ec974.chunk.js",
+    "static/js/2.f48ec974.chunk.js.map": "/JackameenPortfolio/static/js/2.f48ec974.chunk.js.map",
+    "index.html": "/JackameenPortfolio/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/JackameenPortfolio/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.250c0e52.chunk.css.map": "/JackameenPortfolio/static/css/main.250c0e52.chunk.css.map",
+    "static/js/2.f48ec974.chunk.js.LICENSE.txt": "/JackameenPortfolio/static/js/2.f48ec974.chunk.js.LICENSE.txt",
+    "static/media/C Y S 'Can't You See'' _ SLOWED AND REVERBED.2746d5cd.mp3": "/JackameenPortfolio/static/media/C Y S 'Can't You See'' _ SLOWED AND REVERBED.2746d5cd.mp3",
+    "static/media/C Y S Can’t you see _ Jack Ameen .1e8a6cf5.mp3": "/JackameenPortfolio/static/media/C Y S Can’t you see _ Jack Ameen .1e8a6cf5.mp3",
+    "static/media/Logo.49a13338.png": "/JackameenPortfolio/static/media/Logo.49a13338.png",
+    "static/media/Rainy Night..LOFI . _ Night Cinematic video a6300 .fd5c9603.mp3": "/JackameenPortfolio/static/media/Rainy Night..LOFI . _ Night Cinematic video a6300 .fd5c9603.mp3",
+    "static/media/branch.5c597545.png": "/JackameenPortfolio/static/media/branch.5c597545.png",
+    "static/media/camera1.a29649a1.png": "/JackameenPortfolio/static/media/camera1.a29649a1.png",
+    "static/media/camera2.51c4bc17.png": "/JackameenPortfolio/static/media/camera2.51c4bc17.png",
+    "static/media/insta.d40a382d.png": "/JackameenPortfolio/static/media/insta.d40a382d.png",
+    "static/media/popcorn.0e637205.png": "/JackameenPortfolio/static/media/popcorn.0e637205.png",
+    "static/media/suitcase.e14b0bb3.png": "/JackameenPortfolio/static/media/suitcase.e14b0bb3.png",
+    "static/media/vid-01.a5a200f2.mp4": "/JackameenPortfolio/static/media/vid-01.a5a200f2.mp4",
+    "static/media/vid-02.207a4bee.mp4": "/JackameenPortfolio/static/media/vid-02.207a4bee.mp4",
+    "static/media/vid-03.44fc6490.mp4": "/JackameenPortfolio/static/media/vid-03.44fc6490.mp4",
+    "static/media/vid-04.49178a05.mp4": "/JackameenPortfolio/static/media/vid-04.49178a05.mp4",
+    "static/media/youtube.3e33c4d1.png": "/JackameenPortfolio/static/media/youtube.3e33c4d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18e39517.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.f48ec974.chunk.js",
+    "static/css/main.250c0e52.chunk.css",
+    "static/js/main.56211f1f.chunk.js"
+  ]
+}
