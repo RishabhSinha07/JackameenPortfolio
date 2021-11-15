@@ -11,7 +11,7 @@ import pause from '../assets/Buttons/pause.png'
 import previous from '../assets/Buttons/previous.png'
 
 import audio1 from "../assets/Songs/C Y S 'Can't You See'' _ SLOWED AND REVERBED.mp3"
-import audio2 from "../assets/Songs/C Y S Can’t you see _ Jack Ameen _ Prod by Rvii Karan _ D-Hustlerz _ Official Music Video.mp3"
+import audio2 from "../assets/Songs/C Y S Can’t you see _ Jack Ameen .mp3"
 import audio3 from "../assets/Songs/Rainy Night..LOFI . _ Night Cinematic video a6300 .mp3"
 
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
