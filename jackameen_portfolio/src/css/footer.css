@@ -22,13 +22,6 @@
 
 #audio_controls{
     display: flex;
-    opacity: 90%;
-}
-
-#audio_controls:hover {
-    display: flex;
-    opacity: 100%;
-    transition: ease 0.2s;
 }
 
 #lofi{
