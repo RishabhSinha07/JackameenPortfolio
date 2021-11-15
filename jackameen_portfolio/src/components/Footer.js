@@ -5,10 +5,14 @@ import { useState, useEffect } from 'react';
 import '../css/footer.css'
 import 'animate.css';
 
+import play from '../assets/Buttons/play.png';
+import next from '../assets/Buttons/next.png';
+import pause from '../assets/Buttons/pause.png';
+import previous from '../assets/Buttons/previous.png';
 
-import audio1 from "../assets/Songs/C Y S 'Can't You See'' _ SLOWED AND REVERBED.mp3"
-import audio2 from "../assets/Songs/C Y S Can’t you see _ Jack Ameen .mp3"
-import audio3 from "../assets/Songs/Rainy Night..LOFI . _ Night Cinematic video a6300 .mp3"
+import audio1 from "../assets/Songs/C Y S 'Can't You See'' _ SLOWED AND REVERBED.mp3";
+import audio2 from "../assets/Songs/C Y S Can’t you see _ Jack Ameen .mp3";
+import audio3 from "../assets/Songs/Rainy Night..LOFI . _ Night Cinematic video a6300 .mp3";
 
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
@@ -43,10 +47,10 @@ function Footer() {
     return (
         <div id='footer'>
             <div id='audio_controls'>
-                <button className="button" onClick={() => {playPrevious()}}><img src='../assets/Buttons/previous.png' height='40px' width='40px'/></button>
-                <button className="button" onClick={() => {sound.play()}}><img src='../assets/Buttons/play.png' height='25px' width='25px'/></button>
-                <button className="button" onClick={() => {sound.pause()}}><img src='../assets/Buttons/pause.png' height='25px' width='25px'/></button>
-                <button className="button" onClick={() => {playNext()}}><img src='../assets/Buttons/next.png' height='40px' width='40px'/></button>
+                <button className="animate__animated animate__backInDown button" onClick={() => {playPrevious()}}><img src={previous} height='40px' width='40px'/></button>
+                <button className="animate__animated animate__backInDown button" onClick={() => {sound.play()}}><img src={play} height='25px' width='25px'/></button>
+                <button className="animate__animated animate__backInDown button" onClick={() => {sound.pause()}}><img src={pause} height='25px' width='25px'/></button>
+                <button className="animate__animated animate__backInDown button" onClick={() => {playNext()}}><img src={next} height='40px' width='40px'/></button>
             </div>
             <div id='song_name'>
                 <div id='playing_icon'><PlayCircleOutlineIcon/></div>
