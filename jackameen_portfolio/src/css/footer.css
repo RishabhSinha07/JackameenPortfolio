@@ -22,7 +22,7 @@
 
 #audio_controls{
     display: flex;
-    opacity: 50%;
+    opacity: 90%;
 }
 
 #audio_controls:hover {
